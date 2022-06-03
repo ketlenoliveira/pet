@@ -45,7 +45,9 @@
 }
 .Imagem-site{
     width: 88em;
-    height: 45em;
+    height: 100%;
+    margin: 0%;
+    padding: 0px;
 }
 .Titulo{
     font-family: 'Montserrat', sans-serif;
@@ -71,11 +73,13 @@ h2{
     color: #CA5928;
     font-size: 3em;
     font-weight: bolder;
+    margin: 15%;
 }
 
 .Textos-2{
     display: flex;
     flex-direction: row;
+    font-size: 13px;
 
     margin-top: 3em;
     align-items: center;
@@ -85,10 +89,12 @@ h2{
     font-size: 1.5em;
     font-weight: 400;
     text-align: left;
+    margin: 5%;
 }
 .Imagem-2{
     padding: 2em;
     width: 38em;
+    border-radius: 20%;
 }
 
 .Titulo-3 {
@@ -96,11 +102,14 @@ h2{
     font-size: 3em;
     color: #CA5928;
     text-align: right;
+    margin: 3%;
 }
 
 .Textos-3{
     display: flex;
     flex-direction: row-reverse;
+    font-size: 13px;
+    margin: 3%;
 }
 .Paragrafo-3{
     font-family: 'Poppins', sans-serif;
@@ -112,6 +121,7 @@ h2{
     width: 50em;
     margin: 5em;
     margin-left: 1em;
+    border-radius: 20%;
 }
 .Faixa-4{
 
@@ -139,6 +149,7 @@ h2{
 .Textos-5{
     display: flex;
     flex-direction: row;
+    margin:4%;
 }
 
 .Titulo-5 {
@@ -153,19 +164,25 @@ h2{
 .Paragrafo-5{
     font-family: 'fonte3';
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 4;
     text-align: left;
 }
 
 .Imagem-5{
     margin: 5em;
     width: 35em;
+    border-radius: 20%;
     
 }
 .Faixa-6{
     background-color: #29a9b3;
-    margin: 1em 0em -1em -1em;
+    width: 100%;
+    height: 30rem;
+    margin: 0%;
+    
+    
+
 }
 .Titulo-6{
     display: flex;
